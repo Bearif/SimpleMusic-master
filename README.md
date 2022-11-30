@@ -1,13 +1,12 @@
 # SimpleMusic
 
-Android期末项目，仅用作学习使用，在线音乐部分只获取了网易云热歌榜，API来自 [鼻子亲了脸](https://www.bzqll.com/)
 
 <img src="https://cdn.jsdelivr.net/gh/Hui4401/file/imgbed/project/SimpleMusic/4.jpg" width = "22%"/> <img src="https://cdn.jsdelivr.net/gh/Hui4401/file/imgbed/project/SimpleMusic/1.png" width = "22%"/> <img src="https://cdn.jsdelivr.net/gh/Hui4401/file/imgbed/project/SimpleMusic/2.png" width = "22%"/> <img src="https://cdn.jsdelivr.net/gh/Hui4401/file/imgbed/project/SimpleMusic/3.png" width = "22%"/>
 
 ## 1. 开发环境
-- AndroidStudio 3.2
-- AndroidSDK 5.0
-- gradle 4.6
+- AndroidStudio
+- AndroidSDK
+- gradle 3.5.3
 
 ## 2. 模块划分
 
@@ -28,9 +27,8 @@ Android期末项目，仅用作学习使用，在线音乐部分只获取了网�
 6. 音乐播放器等界面退出以后，音乐仍然能在后台播放
 7. 每次启动音乐播放器，播放器装载之前的播放列表，并把列表中的第一首音乐作为默认的首播曲
 8. 再次打开播放器，能显示当前音乐的实时信息
-9. 可以连接到网络，播放网络上的音乐
-10. 缓存网络音乐列表, 需要时刷新, 也可以添加歌单或者移除
-11. 音频焦点控制, 被其他音频打断后能继续播放
+9. 缓存网络音乐列表, 需要时刷新, 也可以添加歌单或者移除
+10. 音频焦点控制, 被其他音频打断后能继续播放
 
 ## 4. 简要说明
 
